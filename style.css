@@ -1,0 +1,173 @@
+/* Reset default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+#main-logo {
+  font-size: 40px;
+  width: 800px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.logo-desc p {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#searchTerm {
+  width: 280px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 190px;
+  border-radius: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+nav {
+  background-color: #1ed760; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  display: flex;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav p {
+  margin: 0;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+nav input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+nav input[type="text"]:focus {
+  outline: none;
+  background-color: #fff; /* Change background color on focus */
+}
+
+nav button {
+  padding: 8px 16px;
+  width:fit-content;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50; /* Button background color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  position: relative;
+  right: 62px;
+}
+
+nav button:hover {
+  background-color: #45a049; /* Darker background color on hover */
+}
+.search-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.search-container p {
+  margin: 0 10px 0 0; /* Adjust spacing around the paragraph */
+}
+
+.artist-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.artist {
+  margin: 20px;
+  text-align: center;
+}
+
+#artist-heading {
+  color: white;
+  text-align: center;
+}
+
+.artist img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.artist img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+  box-shadow: 0 0 30px #1ed760;
+}
+
+.artist h3 {
+  margin-top: 10px;
+  color: white;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Allow wrapping of articles */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+/* Article styling */
+main article {
+  width: calc(33.33% - 20px);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #808080;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+main article:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styling */
+main article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Text styling */
+main article h4 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+main article p {
+  font-size: 14px;
+  margin: 0 10px 10px;
+}
+
+/* Audio styling */
+main article audio {
+  width: 100%;
+  margin: 10px;
+}

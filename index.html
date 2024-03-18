@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Api</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <i id="main-logo" class="fa-brands fa-napster fa-2xl" style="color: #ffffff;"></i>
+            <div class="logo-desc">
+                <p>M <a href=""><i class="fa-solid fa-headphones-simple fa-bounce fa-lg" style="color: #0f0628;"></i></a> SIC</p>
+            </div>
+        </div>  
+        <div>
+            
+            <input type="text" id="searchTerm" placeholder="What do you want to play? " >
+            <button id="searchTermBtn"><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #ffffff;"></i></button> 
+        </div>
+    </nav>
+    
+
+    <h2 id="artist-heading">Featured Artists</h2>
+    <div class="artist-container">
+        <div class="artist">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_.jpg" alt="Artist 1">
+            <h3>Harry Styles</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab67616100005174859e4c14fa59296c8649e0e4" alt="Artist 2">
+            <h3>Taylor Swift</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab67616100005174056f821a5186892979410deb" alt="Artist 2">
+            <h3>Zayn Malik</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebfc043bea91ac91c222d235c9" alt="Artist 2">
+            <h3>Diljit Dosanjh</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebe1e00861cdb6bf56b14a1118" alt="Artist 2">
+            <h3>Darshan Raval</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" alt="Artist 1">
+            <h3>Arijit Singh</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36" alt="Artist 2">
+            <h3>Weekend</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebc5911f22814f270d5004ae53" alt="Artist 2">
+            <h3>Armaan Malik</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36" alt="Artist 2">
+            <h3>Justin Beiber</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6775700000ee85ccaf4dfd98057791a5af3539" alt="Artist 2">
+            <h3>Shawn Mendes</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebf83823555da55fd07555fbd0" alt="Artist 2">
+            <h3>Charlie Puth</h3>
+        </div>
+        <div class="artist">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2" alt="Artist 2">
+            <h3>Krishnakumar</h3>
+        </div>
+        <!-- Add more artists as needed -->
+    </div>
+
+
+
+    <hr>
+    <main id="songs"></main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
